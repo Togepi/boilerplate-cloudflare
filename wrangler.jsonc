@@ -34,7 +34,7 @@
 			"database_id": "c9e0d44f-4f7f-45c7-9e43-ab904ef0f1ff",
 			"migrations_dir": "src/lib/server/db/migrations"
 		}
-	]
+	],
 	/**
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
@@ -44,6 +44,10 @@
 	 * Note: Use secrets to store sensitive data.
 	 * https://developers.cloudflare.com/workers/configuration/secrets/
 	 */
+
+   "vars" :{
+     "PUBLIC_TURNSTILE_SITE_KEY" : "0x4AAAAAABNobK9O7stMUkrt"
+   }
 
 	/**
 	 * Static Assets
